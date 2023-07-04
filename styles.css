@@ -4,23 +4,31 @@
 
 .page-title {
     text-align: center;
-    color: darkred;
+    color: rgb(170, 1, 1);
 }
 
 .index {
     background-color: aliceblue;
 }
 
+.index-card {
+    margin-top: 100px;
+}
+
 .recipe-page {
     background-color: beige;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
+.recipe-links > ul{
+    border: 2px solid red;
+    padding: 10px;
     display: inline-block;
-    padding: 0;
-    width: 100%;
+    list-style-type: none;
+    background-color: white;
+}
+
+.recipe-links {
+    text-align: center;
 }
 
 img {
@@ -31,6 +39,7 @@ img {
 
 .recipe-img img{
     block-size: 400px;
+    border: 1px solid red;
 }
 
 h3 {
@@ -47,4 +56,9 @@ h3 {
 
 .recipe-description {
     text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
 }
